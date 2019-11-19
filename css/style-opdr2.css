@@ -1,3 +1,44 @@
 html, body{
     height: 100%;
 }
+
+body{
+display: flex;
+}
+
+aside{
+width: 20%;
+height: 100%;
+background-color: green;
+}
+
+main{
+width: 80%;
+height: 100%;
+background-color: orange;
+}
+
+.menu-button{
+    width: 200px;
+    height: 120px;
+    background-color: white;
+    margin: 40px;
+}
+
+.flex-container{
+display: flex;
+width: 1000px;
+height: 150px;
+background-color: rgb(221, 85, 169);
+margin: 30px;
+margin-bottom: 60px;
+}
+
+.foto{
+padding: 10px;
+justify-content: left;
+width: 125px;
+height: 125px;
+justify-content: center;
+align-content: center;
+}

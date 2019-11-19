@@ -1,3 +1,59 @@
 html, body{
     height: 100%;
 }
+
+header{
+    display: flex;
+    flex-direction: row; /* Eigenlijk onnodig want bij elke div waarbij je de display op flex zet staat flex-direction al op row */
+    width: 100%;
+    height: 10%;
+    background-color: green;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 90%;
+    background-color: orange;
+}
+
+#mainside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+    background-color: rgb(78, 87, 214);
+}
+
+
+.menu-button{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    margin: 30px;
+}
+
+h1{
+    width: 400px;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+}
+
+p{
+    width: 400px;
+    height: 300px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row; /* Eigenlijk onnodig want bij elke div waarbij je de display op flex zet staat flex-direction al op row */
+    width: 100%;
+    height: 10%;
+    background-color: rgb(204, 31, 138);
+}
